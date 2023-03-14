@@ -21,11 +21,15 @@ public class Main {
   public static void main(String[] args) {
     Main m = new Main();
     EmailFactory emailFactory = new EmailsFactory();
+    
     Customer businessCustomer = emailFactory.createBusinessCustomer("Giri Co.");
     System.out.println(businessCustomer.getEmailText());
     
     Customer returningCustomer = emailFactory.createReturningCustomer("Giri");
     System.out.println(returningCustomer.getEmailText());
+    
+    Customer frequentCustomer = emailFactory.createFrequentCustomer("Girish");
+    System.out.println(frequentCustomer.getEmailText());
   }
   
 }

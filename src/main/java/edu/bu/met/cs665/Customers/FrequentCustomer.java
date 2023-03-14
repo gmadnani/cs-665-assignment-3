@@ -1,15 +1,15 @@
 package edu.bu.met.cs665.Customers;
 
-public class BusinessCustomer extends Customer {
+public class FrequentCustomer extends Customer {
   
-  public BusinessCustomer(String name) {
+  public FrequentCustomer(String name) {
     super(name);
   }
   
   @Override
   public String getEmailText() {
     return String.format("Dear %s,\n" +
-        "Thank you for your recent purchase. As a valued business customer, " +
+        "Thank you for your recent purchase. Thank you for being a loyal customer to us, as a frequent customer, " +
         "we would like to offer you 10%% off your next purchase.", name);
   }
 }
