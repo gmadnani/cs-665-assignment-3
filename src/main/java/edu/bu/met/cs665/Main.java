@@ -23,6 +23,9 @@ public class Main {
     EmailFactory emailFactory = new EmailsFactory();
     Customer businessCustomer = emailFactory.createBusinessCustomer("Giri Co.");
     System.out.println(businessCustomer.getEmailText());
+    
+    Customer returningCustomer = emailFactory.createReturningCustomer("Giri");
+    System.out.println(returningCustomer.getEmailText());
   }
   
 }
