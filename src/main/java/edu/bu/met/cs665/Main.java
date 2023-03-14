@@ -30,6 +30,9 @@ public class Main {
     
     Customer frequentCustomer = emailFactory.createFrequentCustomer("Girish");
     System.out.println(frequentCustomer.getEmailText());
+    
+    Customer newCustomer = emailFactory.createNewCustomer("Girish Madnani");
+    System.out.println(newCustomer.getEmailText());
   }
   
 }
