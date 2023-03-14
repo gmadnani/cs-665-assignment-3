@@ -33,6 +33,9 @@ public class Main {
     
     Customer newCustomer = emailFactory.createNewCustomer("Girish Madnani");
     System.out.println(newCustomer.getEmailText());
+    
+    Customer vipCustomer = emailFactory.createVipCustomer("Girish Mohan Madnani");
+    System.out.println(vipCustomer.getEmailText());
   }
   
 }

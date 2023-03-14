@@ -1,9 +1,6 @@
 package edu.bu.met.cs665.Emails;
 
-import edu.bu.met.cs665.Customers.BusinessCustomer;
-import edu.bu.met.cs665.Customers.FrequentCustomer;
-import edu.bu.met.cs665.Customers.NewCustomer;
-import edu.bu.met.cs665.Customers.ReturningCustomer;
+import edu.bu.met.cs665.Customers.*;
 public class EmailsFactory implements EmailFactory {
   public BusinessCustomer createBusinessCustomer(String name) {
     return new BusinessCustomer(name);
@@ -19,5 +16,9 @@ public class EmailsFactory implements EmailFactory {
   
   public NewCustomer createNewCustomer(String name) {
     return new NewCustomer(name);
+  }
+  
+  public VipCustomer createVipCustomer(String name) {
+    return new VipCustomer(name);
   }
 }
