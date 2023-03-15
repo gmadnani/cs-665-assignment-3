@@ -8,9 +8,10 @@
 
 package edu.bu.met.cs665;
 
-import edu.bu.met.cs665.Customers.Customer;
-import edu.bu.met.cs665.Emails.EmailFactory;
-import edu.bu.met.cs665.Emails.EmailsFactory;
+import edu.bu.met.cs665.customers.Customer;
+import edu.bu.met.cs665.emails.EmailFactory;
+import edu.bu.met.cs665.emails.EmailsFactory;
+
 public class Main {
   
   /**

@@ -1,4 +1,4 @@
-package edu.bu.met.cs665.Customers;
+package edu.bu.met.cs665.customers;
 
 public abstract class Customer {
   protected String name;

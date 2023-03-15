@@ -1,6 +1,11 @@
 package edu.bu.met.cs665;
 
-import edu.bu.met.cs665.Customers.*;
+import edu.bu.met.cs665.customers.BusinessCustomer;
+import edu.bu.met.cs665.customers.Customer;
+import edu.bu.met.cs665.customers.FrequentCustomer;
+import edu.bu.met.cs665.customers.NewCustomer;
+import edu.bu.met.cs665.customers.ReturningCustomer;
+import edu.bu.met.cs665.customers.VipCustomer;
 import org.junit.Assert;
 import org.junit.Test;
 public class TestEmail {
