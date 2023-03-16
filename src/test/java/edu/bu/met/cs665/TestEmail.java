@@ -13,42 +13,35 @@ public class TestEmail {
   public void testBusinessCustomer() {
     Customer customer = new BusinessCustomer("Girish Co.");
     String email = customer.getEmailText();
-    Assert.assertEquals("Dear Girish Co.,\nThank you for your recent purchase." +
-        " As a valued business customer, we would like to offer you 10% off your next purchase.", email);
+    Assert.assertEquals("Dear Girish Co.,\nThis is a custom email specifically for business customers", email);
   }
   
   @Test
   public void testReturningCustomer() {
     Customer customer = new ReturningCustomer("Girish");
     String email = customer.getEmailText();
-    Assert.assertEquals("Dear Girish,\nThank you for your recent purchase. " +
-        "Its been a while since your last purchase, as a returning customer, " +
-        "we would like to offer you 10% off your next purchase.", email);
+    Assert.assertEquals("Dear Girish,\nThis is a custom email specifically for returning customers", email);
   }
   
   @Test
   public void testFrequentCustomer() {
     Customer customer = new FrequentCustomer("Girish");
     String email = customer.getEmailText();
-    Assert.assertEquals("Dear Girish,\nThank you for your recent purchase. " +
-        "Thank you for being a loyal customer to us, as a frequent customer, " +
-        "we would like to offer you 10% off your next purchase.", email);
+    Assert.assertEquals("Dear Girish,\nThis is a custom email specifically for frequent customers", email);
   }
   
   @Test
   public void testNewCustomer() {
     Customer customer = new NewCustomer("Girish");
     String email = customer.getEmailText();
-    Assert.assertEquals("Dear Girish,\nThank you for your recent purchase. As a new customer, " +
-        "we would like to offer you 10% off your next purchase.", email);
+    Assert.assertEquals("Dear Girish,\nThis is a custom email specifically for new customers", email);
   }
   
   @Test
   public void testVipCustomer() {
     Customer customer = new VipCustomer("Girish");
     String email = customer.getEmailText();
-    Assert.assertEquals("Dear Girish,\nThank you for your recent purchase. " +
-        "As our VIP customer, we will be sending a gift as our token of appreciation with this order.", email);
+    Assert.assertEquals("Dear Girish,\nThis is a custom email specifically for vip customers", email);
   }
   
 }
