@@ -1,3 +1,11 @@
+/**
+ * Name: Girish Madnani
+ * Course: CS-665 Software Designs & Patterns
+ * Date: 03/16/2023
+ * File Name: Customer.java
+ * Description: The Customer class provides the customer name and the email function.
+ */
+
 package edu.bu.met.cs665.customers;
 
 public abstract class Customer {

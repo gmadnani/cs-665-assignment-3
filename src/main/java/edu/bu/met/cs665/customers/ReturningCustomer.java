@@ -1,3 +1,12 @@
+/**
+ * Name: Girish Madnani
+ * Course: CS-665 Software Designs & Patterns
+ * Date: 03/16/2023
+ * File Name: ReturningCustomer.java
+ * Description: The ReturningCustomer class provides the returning customer name
+ * and the return string for the returning customer email.
+ */
+
 package edu.bu.met.cs665.customers;
 
 public class ReturningCustomer extends Customer {
@@ -9,8 +18,6 @@ public class ReturningCustomer extends Customer {
   @Override
   public String getEmailText() {
     return String.format("Dear %s,\n"
-        + "Thank you for your recent purchase. "
-        + "Its been a while since your last purchase, as a returning customer, "
-        + "we would like to offer you 10%% off your next purchase.", name);
+        + "This is a custom email specifically for returning customers", name);
   }
 }

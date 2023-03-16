@@ -1,3 +1,12 @@
+/**
+ * Name: Girish Madnani
+ * Course: CS-665 Software Designs & Patterns
+ * Date: 03/16/2023
+ * File Name: BusinessCustomer.java
+ * Description: The BusinessCustomer class provides the business customer name
+ * and the return string for the business customer email.
+ */
+
 package edu.bu.met.cs665.customers;
 
 public class BusinessCustomer extends Customer {
@@ -9,7 +18,6 @@ public class BusinessCustomer extends Customer {
   @Override
   public String getEmailText() {
     return String.format("Dear %s,\n"
-        + "Thank you for your recent purchase. As a valued business customer, "
-        + "we would like to offer you 10%% off your next purchase.", name);
+        + "This is a custom email specifically for business customers", name);
   }
 }
