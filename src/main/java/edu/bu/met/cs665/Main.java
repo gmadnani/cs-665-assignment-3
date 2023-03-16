@@ -33,10 +33,10 @@ public class Main {
     Customer frequentCustomer = emailFactory.createFrequentCustomer("Girish");
     System.out.println(frequentCustomer.getEmailText());
     
-    Customer newCustomer = emailFactory.createNewCustomer("Girish Madnani");
+    Customer newCustomer = emailFactory.createNewCustomer("Girish M.");
     System.out.println(newCustomer.getEmailText());
     
-    Customer vipCustomer = emailFactory.createVipCustomer("Girish Mohan Madnani");
+    Customer vipCustomer = emailFactory.createVipCustomer("Girish Madnani");
     System.out.println(vipCustomer.getEmailText());
   }
   

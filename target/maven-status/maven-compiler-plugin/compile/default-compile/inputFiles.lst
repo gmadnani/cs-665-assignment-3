@@ -4,6 +4,6 @@
 /Users/girish/Desktop/cs665- software design and patterns/assignments/asg3/cs-665-assignment-3/src/main/java/edu/bu/met/cs665/customers/ReturningCustomer.java
 /Users/girish/Desktop/cs665- software design and patterns/assignments/asg3/cs-665-assignment-3/src/main/java/edu/bu/met/cs665/Main.java
 /Users/girish/Desktop/cs665- software design and patterns/assignments/asg3/cs-665-assignment-3/src/main/java/edu/bu/met/cs665/customers/VipCustomer.java
-/Users/girish/Desktop/cs665- software design and patterns/assignments/asg3/cs-665-assignment-3/src/main/java/edu/bu/met/cs665/emails/EmailsFactory.java
+/Users/girish/Desktop/cs665- software design and patterns/assignments/asg3/cs-665-assignment-3/src/main/java/edu/bu/met/cs665/emails/EmailGenerationFactory.java
 /Users/girish/Desktop/cs665- software design and patterns/assignments/asg3/cs-665-assignment-3/src/main/java/edu/bu/met/cs665/emails/EmailFactory.java
 /Users/girish/Desktop/cs665- software design and patterns/assignments/asg3/cs-665-assignment-3/src/main/java/edu/bu/met/cs665/customers/BusinessCustomer.java
